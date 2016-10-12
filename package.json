@@ -1,7 +1,7 @@
 {
-  "name": "laravel-elixir-webpack-modernizr",
+  "name": "laravel-elixir-webpack-modernizr-loader",
   "version": "0.1.0",
-  "description": "'Laravel Elixir Webpack Modernizr'",
+  "description": "'Laravel Elixir Webpack Modernizr Loader'",
   "main": "index.js",
   "repository": {
     "type": "git",
