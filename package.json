@@ -15,7 +15,7 @@
   "author": "Guy Campbell",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thegc/laravel-elixir-webpack-modernizr/issues"
+    "url": "https://github.com/the-big-surf/laravel-elixir-webpack-modernizr/issues"
   },
   "homepage": "https://github.com/the-big-surf/laravel-elixir-webpack-modernizr#readme",
   "dependencies": {
