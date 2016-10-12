@@ -1,0 +1,25 @@
+{
+  "name": "laravel-elixir-webpack-modernizr",
+  "version": "0.1.0",
+  "description": "'Laravel Elixir Webpack Modernizr'",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-big-surf/laravel-elixir-webpack-modernizr.git"
+  },
+  "keywords": [
+    "modernizr",
+    "webpack",
+    "laravel"
+  ],
+  "author": "Guy Campbell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thegc/laravel-elixir-webpack-modernizr/issues"
+  },
+  "homepage": "https://github.com/the-big-surf/laravel-elixir-webpack-modernizr#readme",
+  "dependencies": {
+    "modernizr": "^3.3.1",
+    "modernizr-loader": "0.0.5"
+  }
+}

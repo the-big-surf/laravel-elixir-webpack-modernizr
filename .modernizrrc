@@ -1,0 +1,19 @@
+{
+  "options": [
+    "prefixed",
+    "prefixedCSS",
+    "setClasses"
+  ],
+  "feature-detects": [
+    "css/animations",
+    "css/backgroundsizecover",
+    "css/transforms",
+    "css/transforms3d",
+    "css/transitions",
+    "css/vhunit",
+    "css/vwunit",
+    "svg",
+    "svg/asimg",
+    "touchevents"
+  ]
+}
