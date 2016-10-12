@@ -25,8 +25,6 @@ Require the package:
 var elixir = require('laravel-elixir') // grab elixir
 
 require('laravel-elixir-webpack-modernizr-loader') // enable custom modernizr builds
-
-... // the rest of your gulpfile jazz
 ```
 
 ## Step 3: app.js (or whatever your app's root js file is called)
