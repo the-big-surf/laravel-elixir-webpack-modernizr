@@ -1,7 +1,10 @@
 var Elixir = require('laravel-elixir')
 var _path = require('path')
+var _fileExists = require('file-exists')
 
-var ModernizrRC = Elixir.config.get('.modernizrrc') || _path.resolve(__dirname, ".modernizrrc")
+var rootMRC = _path.resolve(__dirname, "../../.modernizrrc")
+
+var ModernizrRC = _fileExists(rootMRC) ? rootMRC : _path.resolve(__dirname, ".modernizrrc")
 
 Elixir.ready(function () {
 
@@ -11,7 +14,6 @@ Elixir.ready(function () {
         resolve: {
             alias: {
                 'modernizr$': ModernizrRC
-
             }
         },
 
