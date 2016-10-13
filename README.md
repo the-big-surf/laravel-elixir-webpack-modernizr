@@ -27,7 +27,9 @@ var elixir = require('laravel-elixir') // grab elixir
 require('laravel-elixir-webpack-modernizr-loader') // enable custom modernizr builds
 ```
 
-## Step 3: app.js (or whatever your app's root js file is called)
+## Step 3: Import Modernizr into your js
+
+> app.js (or whatever your app's root js file is called)
 
 You don't have to import the package into your base `app.js` but generally this makes sense. Once imported we find it useful to set `Modernizr` as a webpack global, i.e.
 
